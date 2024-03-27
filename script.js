@@ -3,7 +3,7 @@ let navbar= document.querySelector('.navbar');
 let sections= document.querySelectorAll('section');
 let navlinks= document.querySelectorAll('header nav a');
 document.getElementById('myresume').addEventListener('click', function(){
-  window.open('samhitha1.pdf','_blank');
+  window.open('HalaharviSamhitha_InternshalaResume.pdf','_blank');
 })
 
 
