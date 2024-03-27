@@ -2,9 +2,7 @@ let menuicon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
 let sections = document.querySelectorAll("section");
 let navlinks = document.querySelectorAll("header nav a");
-document.getElementById("myresume").addEventListener("click", function ()=>{
-  window.open("resume.pdf", "_blank");
-});
+
 function openresume(){
   window.open('resume.pdf','_blank');
 }
