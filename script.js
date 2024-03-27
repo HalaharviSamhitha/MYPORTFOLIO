@@ -24,6 +24,6 @@ window.onscroll=()=>{
     })
 }
 menuicon.onclick = () => {
-    menuicon.classList.toggle('bx-menu');
+    menuicon.classList.toggle('bx');
     navbar.classList.toggle('active');
 }
