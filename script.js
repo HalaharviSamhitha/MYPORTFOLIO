@@ -15,14 +15,15 @@ window.onscroll=()=>{
       let id= sec.getAttribute('id');
 
       if(top>=offset && top<offset+height){
-        navlinks.forEach(links=>{
-            links.classList.remove('active');
-            document.querySelector('header nav a[href*=' + id + ' ]').classList.add('active');
-           
-         })
-      }
-    })
+        let bar= document.getElementById("links");
+        let s= window.getComputedStyle(bar).visibility
+        if(s=='hidden'){
+         bar.classList.add("active"); 
+        }
+        else{
+          bar.classList.remove("active");
 }
+      }
 menuicon.onclick = () => {
     menuicon.classList.toggle('bx');
     navbar.classList.toggle('active');
