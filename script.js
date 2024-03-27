@@ -5,7 +5,9 @@ let navlinks = document.querySelectorAll("header nav a");
 document.getElementById("myresume").addEventListener("click", function ()=>{
   window.open("resume.pdf", "_blank");
 });
-
+function openresume(){
+  window.open('resume.pdf','_blank');
+}
 window.onscroll = () => {
   sections.forEach((sec) => {
     let top = window.scrollY;
