@@ -209,25 +209,22 @@ span{
 }
 @keyframes words{
     0%,
-    20%{
-        content: 'web Developer';
+    25%{
+        content: 'Front-end web developer';
     }
-    21%,
-    40%{
-        content: "Front-end and back-end expert";
+    26%,
+    50%{
+        content: "Java Developer";
     }
-    41%,
-    60%{
-        content: "A core Java Expert";
+    51%,
+    75%{
+        content: "Enthusiastic Learner";
     }
-    61%,
-    80%{
-        content: "Content Manager";
-    }
-    81%,
+    76%,
     100%{
-        content: "Software Developer";
+        content: "Web Animator";
     }
+    
     
 }
 @keyframes typing{
