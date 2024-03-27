@@ -3,7 +3,7 @@ let navbar = document.querySelector(".navbar");
 let sections = document.querySelectorAll("section");
 let navlinks = document.querySelectorAll("header nav a");
 document.getElementById("myresume").addEventListener("click", function () {
-  window.open("Resume Winner.pdf", "_blank");
+  window.open("resume.pdf", "_blank");
 });
 
 window.onscroll = () => {
