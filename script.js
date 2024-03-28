@@ -6,7 +6,7 @@ let navlinks = document.querySelectorAll("header nav a");
   event.preventDefault(); // Prevents the default form submission
 
   // Clear the message textarea
-  document.getElementById('message').value = '';
+  document.getElementsByClassName('thisistextarea').value = '';
 
   // Show alert message
   alert('Message sent successfully!');
