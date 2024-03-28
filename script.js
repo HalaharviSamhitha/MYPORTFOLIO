@@ -12,7 +12,7 @@ let navlinks = document.querySelectorAll("header nav a");
    document.getElementById('d').value = '';
     document.getElementById('e').value = '';
   // Show alert message
-  alert('Hey, thanks a bunch for reaching out to me through the contact form on the website. I'll get back to you soon!');
+  alert('Hey, thanks a bunch for reaching out to me through the contact form on the website. I'll be back to you soon!');
 });
 
 
