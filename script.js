@@ -2,7 +2,7 @@ let menuicon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
 let sections = document.querySelectorAll("section");
 let navlinks = document.querySelectorAll("header nav a");
- document.getElementById('contactformsection').addEventListener('click', function(event) {
+ 
  document.getElementById('contactformsection').addEventListener('click', function() {
   alert("Hey, thanks a bunch for reaching out to me through the contact form on the website. I'll get back to you soon!");
 });
