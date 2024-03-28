@@ -6,10 +6,13 @@ let navlinks = document.querySelectorAll("header nav a");
   event.preventDefault(); // Prevents the default form submission
 
   // Clear the message textarea
-  document.getElementsByClassName('thisistextarea').value = '';
-
+  document.getElementById('a').value = '';
+   document.getElementById('b').value = '';
+   document.getElementById('c').value = '';
+   document.getElementById('d').value = '';
+    document.getElementById('e').value = '';
   // Show alert message
-  alert('Message sent successfully!');
+  alert('Hey, thanks a bunch for reaching out to me through the contact form on the website. I'll get back to you soon!');
 });
 
 
